@@ -29,8 +29,21 @@ li,i, .cursor-pointer{
     top: 0;
 
 }
+.loader{
+    z-index: 800;
+    position:fixed; 
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: #0D0D0D; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.loader,.loader2{
+
+.loader2{
     z-index: 500;
     position:fixed; 
     top:0;
