@@ -29,6 +29,14 @@ li,i, .cursor-pointer{
     top: 0;
 
 }
+
+.fix{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+ 
+}
 .loader{
     z-index: 800;
     position:fixed; 
